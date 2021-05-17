@@ -1,2 +1,0 @@
-F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
-F:\Work\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
