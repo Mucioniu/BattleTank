@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I F:\Work\BattleTank\BattleTank\Source\BattleTank\Private
+/I F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -427,21 +427,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
-/I F:\Work\BattleTank\BattleTank\Source
-/I F:\Work\BattleTank\BattleTank\Source\BattleTank\Public
-/I F:\Work\BattleTank\BattleTank\Source\BattleTank
+/I F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
+/I F:\Work\Unreal\BattleTank\BattleTank\Source
+/I F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public
+/I F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank
 /I "E:\Pogram files\Visual Studio Community\Community\VC\Tools\MSVC\14.28.29910\INCLUDE"
 /I "E:\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "E:\Windows Kits\10\include\10.0.19041.0\shared"
 /I "E:\Windows Kits\10\include\10.0.19041.0\um"
 /I "E:\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\Work\BattleTank\BattleTank\Source\BattleTank\BattleTankGameMode.cpp"
-/FI"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameMode.cpp.obj"
+/FI"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTankGameMode.cpp"
+/FI"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
+/Fo"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameMode.cpp.obj"
 /TP
 /GR-
 /W4

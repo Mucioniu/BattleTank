@@ -193,11 +193,11 @@
 /I "E:\Windows Kits\10\include\10.0.19041.0\shared"
 /I "E:\Windows Kits\10\include\10.0.19041.0\um"
 /I "E:\Windows Kits\10\include\10.0.19041.0\winrt"
-/I F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine
-/Yc"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"F:\Work\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine
+/Yc"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
