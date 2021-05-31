@@ -1,5 +1,5 @@
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
-F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
 F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankAimingComponent.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
@@ -12,4 +12,5 @@ F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classe
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankAimingComponent.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Tank.generated.h
