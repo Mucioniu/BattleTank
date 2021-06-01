@@ -1,6 +1,4 @@
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
-F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
-F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Tank.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankAIController.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\AIController.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
@@ -42,4 +40,6 @@ F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Public
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankAIController.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Tank.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
