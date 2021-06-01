@@ -13,7 +13,7 @@ void ATankAIController::BeginPlay()
 
 
 void ATankAIController::Tick(float DeltaTime)
-{
+{/*
 	Super::Tick(DeltaTime);
 	auto PlayerTank = Cast<ATank>(GetWorld()->GetFirstPlayerController()->GetPawn());
 	auto ControlledTank = Cast<ATank>(GetPawn());
@@ -25,5 +25,5 @@ void ATankAIController::Tick(float DeltaTime)
 
 		// Fire if ready
 		ControlledTank->Fire(); // TODO limit firing rate
-	}
+	}*/
 }
