@@ -7,4 +7,6 @@ F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classe
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankMovementComponent.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankTrack.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\TankTrack.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
