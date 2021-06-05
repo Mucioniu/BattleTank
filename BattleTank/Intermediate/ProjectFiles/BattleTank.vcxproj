@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{58920654-AD4D-48BC-984B-7767C85735B8}</ProjectGuid>
+    <ProjectGuid>{42434494-6245-4B6E-97D7-5B5005506A9E}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>BattleTank</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

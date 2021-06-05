@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D627395B-DCED-40B3-9134-9AE7DBBBB935}</UniqueIdentifier>
+      <UniqueIdentifier>{9ED6CB14-9E50-4CBC-8983-C771D8CBA7A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\BT17+Firing_M1A1_tank_in_Djibouti.jpg" />
     <Filter Include="Config">
-      <UniqueIdentifier>{6DAAD7F3-D80D-4A8F-8514-72584F9843CF}</UniqueIdentifier>
+      <UniqueIdentifier>{010486F3-0892-4550-B0AB-F3631F21F859}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleTank">
-      <UniqueIdentifier>{2AF066EB-74F7-4B1F-88AB-FBF9591D169C}</UniqueIdentifier>
+      <UniqueIdentifier>{CD919CE8-54C8-4A03-A128-270BF3CA9557}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank\BattleTank.Build.cs">
       <Filter>Source\BattleTank</Filter>
@@ -52,7 +52,7 @@
       <Filter>Source\BattleTank</Filter>
     </ClInclude>
     <Filter Include="Source\BattleTank\Private">
-      <UniqueIdentifier>{84AC4770-F402-4B1F-B0B1-71D932423ED7}</UniqueIdentifier>
+      <UniqueIdentifier>{B93C5E5F-8052-472A-9E46-DD06B51E67B0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BattleTank\Private\Projectile.cpp">
       <Filter>Source\BattleTank\Private</Filter>
@@ -82,7 +82,7 @@
       <Filter>Source\BattleTank\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleTank\Public">
-      <UniqueIdentifier>{85595929-03B6-4939-9A70-FFF5FA0CE037}</UniqueIdentifier>
+      <UniqueIdentifier>{ABF905B7-7DBE-45D8-A43D-289469F0D48B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BattleTank\Public\Projectile.h">
       <Filter>Source\BattleTank\Public</Filter>
