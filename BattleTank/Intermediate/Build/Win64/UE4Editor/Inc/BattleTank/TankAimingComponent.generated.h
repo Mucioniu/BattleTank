@@ -8,14 +8,40 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UTankBarrel;
+class UTankTurret;
 #ifdef BATTLETANK_TankAimingComponent_generated_h
 #error "TankAimingComponent.generated.h already included, missing '#pragma once' in TankAimingComponent.h"
 #endif
 #define BATTLETANK_TankAimingComponent_generated_h
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_RPC_WRAPPERS
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_INCLASS_NO_PURE_DECLS \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execInitialise) \
+	{ \
+		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
+		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Initialise(Z_Param_BarrelToSet,Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	}
+
+
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInitialise) \
+	{ \
+		P_GET_OBJECT(UTankBarrel,Z_Param_BarrelToSet); \
+		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Initialise(Z_Param_BarrelToSet,Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	}
+
+
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
 	friend struct Z_Construct_UClass_UTankAimingComponent_Statics; \
@@ -24,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UTankAimingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_INCLASS \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesUTankAimingComponent(); \
 	friend struct Z_Construct_UClass_UTankAimingComponent_Statics; \
@@ -33,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(UTankAimingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_STANDARD_CONSTRUCTORS \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTankAimingComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTankAimingComponent) \
@@ -46,7 +72,7 @@ private: \
 public:
 
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_ENHANCED_CONSTRUCTORS \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTankAimingComponent(UTankAimingComponent&&); \
@@ -57,26 +83,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTankAimingComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTankAimingComponent)
 
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_PRIVATE_PROPERTY_OFFSET
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_14_PROLOG
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_GENERATED_BODY_LEGACY \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FiringState() { return STRUCT_OFFSET(UTankAimingComponent, FiringState); }
+
+
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_23_PROLOG
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_RPC_WRAPPERS \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_INCLASS \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_STANDARD_CONSTRUCTORS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_PRIVATE_PROPERTY_OFFSET \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_RPC_WRAPPERS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_INCLASS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_GENERATED_BODY \
+#define BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_INCLASS_NO_PURE_DECLS \
-	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_17_ENHANCED_CONSTRUCTORS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_PRIVATE_PROPERTY_OFFSET \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_INCLASS_NO_PURE_DECLS \
+	BattleTank_Source_BattleTank_Public_TankAimingComponent_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,5 +115,13 @@ template<> BATTLETANK_API UClass* StaticClass<class UTankAimingComponent>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID BattleTank_Source_BattleTank_Public_TankAimingComponent_h
 
+
+#define FOREACH_ENUM_EFIRINGSTATE(op) \
+	op(EFiringState::Reloading) \
+	op(EFiringState::Aiming) \
+	op(EFiringState::Locked) 
+
+enum class EFiringState : uint8;
+template<> BATTLETANK_API UEnum* StaticEnum<EFiringState>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

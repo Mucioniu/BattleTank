@@ -18,21 +18,16 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_Fire();
-	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetBarrelReference();
-	BATTLETANK_API UClass* Z_Construct_UClass_UTankBarrel_NoRegister();
-	BATTLETANK_API UFunction* Z_Construct_UFunction_ATank_SetTurretReference();
-	BATTLETANK_API UClass* Z_Construct_UClass_UTankTurret_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	BATTLETANK_API UClass* Z_Construct_UClass_AProjectile_NoRegister();
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankMovementComponent_NoRegister();
+	BATTLETANK_API UClass* Z_Construct_UClass_UTankAimingComponent_NoRegister();
 // End Cross Module References
 	void ATank::StaticRegisterNativesATank()
 	{
 		UClass* Class = ATank::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Fire", &ATank::execFire },
-			{ "SetBarrelReference", &ATank::execSetBarrelReference },
-			{ "SetTurretReference", &ATank::execSetTurretReference },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -56,88 +51,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATank_Fire_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ATank_SetBarrelReference_Statics
-	{
-		struct Tank_eventSetBarrelReference_Parms
-		{
-			UTankBarrel* BarrelToSet;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarrelToSet_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BarrelToSet;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_SetBarrelReference_Statics::NewProp_BarrelToSet_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATank_SetBarrelReference_Statics::NewProp_BarrelToSet = { "BarrelToSet", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Tank_eventSetBarrelReference_Parms, BarrelToSet), Z_Construct_UClass_UTankBarrel_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ATank_SetBarrelReference_Statics::NewProp_BarrelToSet_MetaData, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetBarrelReference_Statics::NewProp_BarrelToSet_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATank_SetBarrelReference_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATank_SetBarrelReference_Statics::NewProp_BarrelToSet,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_SetBarrelReference_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Setup" },
-		{ "ModuleRelativePath", "Public/Tank.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATank_SetBarrelReference_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATank, nullptr, "SetBarrelReference", sizeof(Tank_eventSetBarrelReference_Parms), Z_Construct_UFunction_ATank_SetBarrelReference_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetBarrelReference_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATank_SetBarrelReference_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetBarrelReference_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ATank_SetBarrelReference()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATank_SetBarrelReference_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ATank_SetTurretReference_Statics
-	{
-		struct Tank_eventSetTurretReference_Parms
-		{
-			UTankTurret* TurretToSet;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TurretToSet_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TurretToSet;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_SetTurretReference_Statics::NewProp_TurretToSet_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATank_SetTurretReference_Statics::NewProp_TurretToSet = { "TurretToSet", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Tank_eventSetTurretReference_Parms, TurretToSet), Z_Construct_UClass_UTankTurret_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ATank_SetTurretReference_Statics::NewProp_TurretToSet_MetaData, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetTurretReference_Statics::NewProp_TurretToSet_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATank_SetTurretReference_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATank_SetTurretReference_Statics::NewProp_TurretToSet,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATank_SetTurretReference_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Setup" },
-		{ "ModuleRelativePath", "Public/Tank.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATank_SetTurretReference_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATank, nullptr, "SetTurretReference", sizeof(Tank_eventSetTurretReference_Parms), Z_Construct_UFunction_ATank_SetTurretReference_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetTurretReference_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATank_SetTurretReference_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATank_SetTurretReference_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ATank_SetTurretReference()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATank_SetTurretReference_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -168,6 +81,10 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankMovementComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankMovementComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TankAimingComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TankAimingComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -178,8 +95,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATank_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATank_Fire, "Fire" }, // 1932310576
-		{ &Z_Construct_UFunction_ATank_SetBarrelReference, "SetBarrelReference" }, // 886292545
-		{ &Z_Construct_UFunction_ATank_SetTurretReference, "SetTurretReference" }, // 1210151234
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::Class_MetaDataParams[] = {
@@ -217,11 +132,20 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent = { "TankMovementComponent", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, TankMovementComponent), Z_Construct_UClass_UTankMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_TankAimingComponent_MetaData[] = {
+		{ "Category", "Tank" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankAimingComponent = { "TankAimingComponent", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, TankAimingComponent), Z_Construct_UClass_UTankAimingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankAimingComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankAimingComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATank_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_ReloadTimeInSeconds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_ProjectileBlueprint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_LaunchSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_TankMovementComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_TankAimingComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATank_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATank>::IsAbstract,
@@ -250,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 2763833394);
+	IMPLEMENT_CLASS(ATank, 3872834382);
 	template<> BATTLETANK_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();
