@@ -66,5 +66,5 @@ protected:
 
 	FVector AimDirection;
 
-	int RoundsLeft = 3;
+	int RoundsLeft = 20;
 };
