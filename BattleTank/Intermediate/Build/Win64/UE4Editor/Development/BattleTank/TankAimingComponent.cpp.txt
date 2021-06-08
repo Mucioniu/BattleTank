@@ -26,5 +26,7 @@ F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/RadialForceComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RadialForceComponent.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Projectile.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h

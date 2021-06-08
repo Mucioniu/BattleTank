@@ -31,6 +31,15 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CurrentHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartingHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_StartingHealth;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +54,24 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		{ "ModuleRelativePath", "Public/Tank.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_CurrentHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, CurrentHealth), METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_CurrentHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_CurrentHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_StartingHealth_MetaData[] = {
+		{ "Category", "Setup" },
+		{ "ModuleRelativePath", "Public/Tank.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_StartingHealth = { "StartingHealth", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, StartingHealth), METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_StartingHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_StartingHealth_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATank_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_CurrentHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATank_Statics::NewProp_StartingHealth,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATank_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATank>::IsAbstract,
 	};
@@ -54,11 +81,11 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATank_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::Class_MetaDataParams))
@@ -72,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 2647635550);
+	IMPLEMENT_CLASS(ATank, 2392709039);
 	template<> BATTLETANK_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();
