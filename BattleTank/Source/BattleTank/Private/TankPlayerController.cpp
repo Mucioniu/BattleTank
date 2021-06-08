@@ -2,14 +2,15 @@
 
 #include "TankPlayerController.h"
 #include "TankAimingComponent.h"
-#include "BattleTank.h"	
+#include "BattleTank.h"
+#include "Tank.h"
 
 void ATankPlayerController::BeginPlay() {
 
 	Super::BeginPlay();
 
 	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-	if (!ensure(AimingComponent)) { return; }
+	if (!AimingComponent) { return; }
 	FoundAimingComponent(AimingComponent);
 }
 
@@ -17,7 +18,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 {
 	if (!GetPawn()) { return; } // e.g. if not possessing
 	auto AimingComponent = GetPawn()->FindComponentByClass<UTankAimingComponent>();
-	if (!ensure(AimingComponent)) { return; }
+	//if (!ensure(AimingComponent)) { return; }
 
 	FVector HitLocation; // Out parameter
 	bool bGotHitLocation = GetSightRayHitLocation(HitLocation);
@@ -57,7 +58,7 @@ bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVec
 		HitResult,
 		StartLocation,
 		EndLocation,
-		ECollisionChannel::ECC_Visibility)
+		ECollisionChannel::ECC_Camera)
 		)
 	{
 		HitLocation = HitResult.Location;
@@ -77,4 +78,23 @@ bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& 
 		CameraWorldLocation,
 		LookDirection
 	);
+}
+
+
+void ATankPlayerController::SetPawn(APawn* InPawn)
+{
+	Super::SetPawn(InPawn);
+	if (InPawn)
+	{
+		auto PossessedTank = Cast<ATank>(InPawn);
+		if (!ensure(PossessedTank)) { return; }
+
+		// Subscribe our local method to the tank's death event
+		PossessedTank->OnDeath.AddUniqueDynamic(this, &ATankPlayerController::OnPossedTankDeath);
+	}
+}
+
+void ATankPlayerController::OnPossedTankDeath()
+{
+	StartSpectatingOnly();
 }
