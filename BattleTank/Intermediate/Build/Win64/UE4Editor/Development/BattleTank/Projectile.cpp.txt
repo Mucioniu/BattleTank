@@ -4,4 +4,10 @@ F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classe
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\Projectile.generated.h
