@@ -13,8 +13,35 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTLETANK_Tank_generated_h
 
-#define BattleTank_Source_BattleTank_Public_Tank_h_14_RPC_WRAPPERS
-#define BattleTank_Source_BattleTank_Public_Tank_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define BattleTank_Source_BattleTank_Public_Tank_h_9_DELEGATE \
+static inline void FTankDelegate_DelegateWrapper(const FMulticastScriptDelegate& TankDelegate) \
+{ \
+	TankDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define BattleTank_Source_BattleTank_Public_Tank_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthPercent(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BattleTank_Source_BattleTank_Public_Tank_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthPercent(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BattleTank_Source_BattleTank_Public_Tank_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
