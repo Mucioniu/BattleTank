@@ -1,0 +1,57 @@
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Development\BattleTank\Definitions.BattleTank.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankAIController.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\AIController.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\NavAreaBase.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\NavigationSystem\NavArea.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\AITypes.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\NavigationSystemConfig.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\AITypes.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTasks\GameplayTask.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\NavigationDataInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\NavigationSystem\NavigationData.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\AIResourceInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\PathFollowingAgentInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\MovementComponent.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\NavMovementComponent.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\PathFollowingComponent.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\AIPerceptionListenerInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\GenericTeamAgentInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule\AIController.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Inc\BattleTank\TankAIController.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankAimingComponent.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CollisionProfile.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\KismetSystemLibrary.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DialogueTypes.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStaticsTypes.generated.h
+F:\program files al bun\unrealEngine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStatics.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Inc\BattleTank\TankAimingComponent.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Inc\BattleTank\Tank.generated.h

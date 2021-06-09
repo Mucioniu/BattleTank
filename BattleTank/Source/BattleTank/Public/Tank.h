@@ -21,6 +21,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 		float GetHealthPercent() const;
 
+	UFUNCTION(BlueprintPure, Category = "Health")
+		int32 GetCurrentHealth() const;
+
 	// Sets default values for this pawn's properties
 	ATank();
 

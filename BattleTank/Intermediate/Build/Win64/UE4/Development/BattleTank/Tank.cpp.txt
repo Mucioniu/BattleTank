@@ -1,0 +1,4 @@
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Development\BattleTank\Definitions.BattleTank.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4\Inc\BattleTank\Tank.generated.h
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\BattleTank.h
