@@ -1,0 +1,29 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\Work\Unreal\BattleTank).
+  Parsing headers for BattleTankEditor
+    Running UnrealHeaderTool "F:\Work\Unreal\BattleTank\BattleTank\BattleTank.uproject" "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BattleTankEditor in 5.5934022 seconds
+  Using Visual Studio 2019 14.29.30133 toolchain (F:\program files al bun\Visual Studio\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] SprungWheel.cpp
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(34): error C2143: syntax error: missing ';' before '*'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(34): error C2238: unexpected token(s) preceding ';'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(12): error C2039: 'MassWheelConstraint': is not a member of 'ASprungWheel'
+    F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(10): note: see declaration of 'ASprungWheel'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(12): error C2618: illegal member designator in offsetof
+    F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\SprungWheel.h(12): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(21): error C2065: 'MassWheelConstraint': undeclared identifier
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(22): error C2065: 'MassWheelConstraint': undeclared identifier
+    [2/5] SprungWheel.gen.cpp
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(34): error C2143: syntax error: missing ';' before '*'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(34): error C2238: unexpected token(s) preceding ';'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(12): error C2039: 'MassWheelConstraint': is not a member of 'ASprungWheel'
+    F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(10): note: see declaration of 'ASprungWheel'
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(12): error C2618: illegal member designator in offsetof
+    F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(12): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\SprungWheel.gen.cpp(69): error C2039: 'MassWheelConstraint': is not a member of 'ASprungWheel'
+    F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank/Public/SprungWheel.h(10): note: see declaration of 'ASprungWheel'
+F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\SprungWheel.gen.cpp(69): error C2618: illegal member designator in offsetof
+    F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\SprungWheel.gen.cpp(69): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+F:\program files al bun\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075: The command ""F:\program files al bun\unrealEngine\UE_4.22\Engine\Build\BatchFiles\Build.bat" BattleTankEditor Win64 Development -Project="F:\Work\Unreal\BattleTank\BattleTank\BattleTank.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
