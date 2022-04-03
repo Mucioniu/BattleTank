@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.cpp.obj"
+"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\SpawnPoint.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\SprungWheel.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.cpp.obj"
@@ -24,6 +25,7 @@
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameMode.gen.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.gen.cpp.obj"
+"F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\SpawnPoint.gen.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\SprungWheel.gen.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
 "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.gen.cpp.obj"
