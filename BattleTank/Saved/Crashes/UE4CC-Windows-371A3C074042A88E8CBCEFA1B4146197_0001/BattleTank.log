@@ -1,0 +1,1053 @@
+﻿Log file open, 04/12/22 17:14:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BattleTank
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.366278
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: BattleTank
+Running F:/program files al bun/unrealEngine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="F:/Work/Unreal/BattleTank/BattleTank/BattleTank.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (F:\Work\Unreal\BattleTank).
+Creating makefile for BattleTankEditor (ini files are newer than makefile)
+@progress push 5%
+Parsing headers for BattleTankEditor
+  Running UnrealHeaderTool "F:\Work\Unreal\BattleTank\BattleTank\BattleTank.uproject" "F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BattleTankEditor in 16.209108 seconds
+@progress pop
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\SpawnPoint.cpp(1): error: Expected SpawnPoint.h to be first header included.
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\SprungWheel.cpp(1): error: Expected SprungWheel.h to be first header included.
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankBarrel.cpp(1): error: Expected TankBarrel.h to be first header included.
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankTrack.cpp(1): error: Expected TankTrack.h to be first header included.
+F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankTurret.cpp(1): error: Expected TankTurret.h to be first header included.
+Using Visual Studio 2019 14.29.30133 toolchain (F:\program files al bun\Visual Studio\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 3 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 33%
+  [1/3] UE4Editor-BattleTank.lib
+     Creating library F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.lib and object F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.exp
+  @progress 'Compiling C++ source code...' 67%
+  [2/3] UE4Editor-BattleTank.dll
+     Creating library F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.suppressed.lib and object F:\Work\Unreal\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [3/3] BattleTankEditor.target
+Total time in Parallel executor: 8.62 seconds
+Total execution time: 29.48 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: F:/program files al bun/unrealEngine/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.04.12-14.15.24:053][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.04.12-14.15.24:053][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.04.12-14.15.24:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:053][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.04.12-14.15.24:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:054][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:060][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.12-14.15.24:060][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.12-14.15.24:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.12-14.15.24:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.12-14.15.24:063][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.12-14.15.24:063][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.12-14.15.24:063][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.12-14.15.24:101][  0]LogHAL: Display: Platform has ~ 16 GB [17002713088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.04.12-14.15.24:101][  0]LogInit: Going up to parent DeviceProfile []
+[2022.04.12-14.15.24:101][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.12-14.15.24:101][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.12-14.15.24:102][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.12-14.15.24:103][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Scalability.ini]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.12-14.15.24:104][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.04.12-14.15.24:105][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.04.12-14.15.24:105][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.04.12-14.15.24:105][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Work/Unreal/BattleTank/BattleTank/Saved/Config/Windows/Engine.ini]
+[2022.04.12-14.15.24:105][  0]LogInit: Computer: DESKTOP-BVMFIOQ
+[2022.04.12-14.15.24:105][  0]LogInit: User: andre
+[2022.04.12-14.15.24:105][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.04.12-14.15.24:105][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.12-14.15.24:106][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.04.12-14.15.24:106][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.12-14.15.24:106][  0]LogMemory: Process Physical Memory: 102.92 MB used, 102.92 MB peak
+[2022.04.12-14.15.24:106][  0]LogMemory: Process Virtual Memory: 93.15 MB used, 93.15 MB peak
+[2022.04.12-14.15.24:106][  0]LogMemory: Physical Memory: 6753.27 MB used,  9461.79 MB free, 16215.05 MB total
+[2022.04.12-14.15.24:106][  0]LogMemory: Virtual Memory: 4692.93 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2022.04.12-14.15.24:357][  0]LogInit: Using OS detected language (en-US).
+[2022.04.12-14.15.24:357][  0]LogInit: Using OS detected locale (en-US).
+[2022.04.12-14.15.24:358][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.04.12-14.15.24:554][  0]LogInit: Setting process to per monitor DPI aware
+[2022.04.12-14.15.24:584][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.04.12-14.15.24:584][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.04.12-14.15.24:761][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.12-14.15.24:761][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.12-14.15.24:858][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2022.04.12-14.15.24:858][  0]LogD3D11RHI:       5980/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.04.12-14.15.24:886][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.04.12-14.15.24:886][  0]LogD3D11RHI:       128/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.04.12-14.15.24:888][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.12-14.15.24:888][  0]LogD3D11RHI:       0/0/8107 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.12-14.15.24:888][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.04.12-14.15.24:893][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.12-14.15.24:893][  0]LogD3D11RHI:     GPU DeviceId: 0x1f15 (for the marketing name, search the web for "GPU Device Id")
+[2022.04.12-14.15.24:893][  0]LogWindows: EnumDisplayDevices:
+[2022.04.12-14.15.24:893][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.04.12-14.15.24:894][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.04.12-14.15.24:894][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.04.12-14.15.24:894][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.04.12-14.15.24:895][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.04.12-14.15.24:895][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2022.04.12-14.15.24:895][  0]LogD3D11RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2022.04.12-14.15.24:895][  0]LogD3D11RHI:      Driver Date: 3-17-2022
+[2022.04.12-14.15.24:895][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2022.04.12-14.15.24:962][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.12-14.15.24:965][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.04.12-14.15.24:965][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.04.12-14.15.24:966][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.04.12-14.15.24:973][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.04.12-14.15.25:236][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2022.04.12-14.15.25:248][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2022.04.12-14.15.25:261][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2022.04.12-14.15.25:273][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2022.04.12-14.15.25:286][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2022.04.12-14.15.25:298][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.04.12-14.15.25:310][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.04.12-14.15.25:322][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.04.12-14.15.25:327][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2022.04.12-14.15.25:402][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2022.04.12-14.15.25:404][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2022.04.12-14.15.25:472][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2022.04.12-14.15.25:472][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2022.04.12-14.15.25:504][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2022.04.12-14.15.25:504][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2022.04.12-14.15.25:516][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2022.04.12-14.15.25:528][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2022.04.12-14.15.25:540][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2022.04.12-14.15.25:552][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2022.04.12-14.15.25:595][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2022.04.12-14.15.25:595][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2022.04.12-14.15.25:595][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.04.12-14.15.25:624][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.04.12-14.15.25:657][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Work/Unreal/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/12708/).
+[2022.04.12-14.15.25:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/andre/AppData/Local/Temp/UnrealShaderWorkingDir/E61A7CBF44B0B21D982CEA8FE2A9BEF6/'.
+[2022.04.12-14.15.25:659][  0]LogXGEController: Cleaning working directory: C:/Users/andre/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.04.12-14.15.25:659][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.04.12-14.15.25:659][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.04.12-14.15.25:659][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.04.12-14.15.26:221][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/andre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/andre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/Unreal/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/Unreal/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.12-14.15.26:266][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.12-14.15.26:281][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.12-14.15.26:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.12-14.15.26:281][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.04.12-14.15.26:293][  0]LogDerivedDataCache: Using Local data cache path C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.12-14.15.26:293][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.04.12-14.15.26:293][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.04.12-14.15.26:355][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.04.12-14.15.26:357][  0]LogSlate: Using FreeType 2.6.0
+[2022.04.12-14.15.26:358][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.12-14.15.26:454][  0]LogAssetRegistry: FAssetRegistry took 0.0335 seconds to start up
+[2022.04.12-14.15.26:769][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.12-14.15.26:896][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.12-14.15.26:896][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.04.12-14.15.26:896][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.04.12-14.15.26:896][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.04.12-14.15.26:896][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.04.12-14.15.26:907][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 704854574)
+[2022.04.12-14.15.27:271][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.030112 seconds
+[2022.04.12-14.15.27:279][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2022.04.12-14.15.27:279][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2022.04.12-14.15.27:279][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.12-14.15.28:028][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.12-14.15.28:050][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.12-14.15.28:229][  0]SourceControl: Source control is disabled
+[2022.04.12-14.15.28:229][  0]SourceControl: Source control is disabled
+[2022.04.12-14.15.28:231][  0]SourceControl: Source control is disabled
+[2022.04.12-14.15.28:233][  0]SourceControl: Source control is disabled
+[2022.04.12-14.15.28:305][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.04.12-14.15.28:432][  0]LogOcInput: OculusInput pre-init called
+[2022.04.12-14.15.29:078][  0]LogEngine: Initializing Engine...
+[2022.04.12-14.15.29:078][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.04.12-14.15.29:079][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.04.12-14.15.29:281][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.04.12-14.15.29:290][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.12-14.15.29:328][  0]LogInit: XAudio2 using 'Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.04.12-14.15.29:897][  0]LogInit: FAudioDevice initialized.
+[2022.04.12-14.15.29:898][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.04.12-14.15.30:045][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/andre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.04.12-14.15.30:064][  0]LogInit: Texture streaming: Enabled
+[2022.04.12-14.15.30:085][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.04.12-14.15.30:101][  0]LogInit: Transaction tracking system initialized
+[2022.04.12-14.15.30:116][  0]BlueprintLog: New page: Editor Load
+[2022.04.12-14.15.30:169][  0]LocalizationService: Localization service is disabled
+[2022.04.12-14.15.30:454][  0]LogFileCache: Scanning file cache for directory 'F:/Work/Unreal/BattleTank/BattleTank/Content/' took 0.01s
+[2022.04.12-14.15.30:454][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.04.12-14.15.30:454][  0]LogCook: Display: Mobile HDR setting 1
+[2022.04.12-14.15.30:601][  0]SourceControl: Source control is disabled
+[2022.04.12-14.15.30:678][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 F:/program files al bun/unrealEngine/UE_4.22/FeaturePacks/StarterContent.upack)
+[2022.04.12-14.15.30:846][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2022.04.12-14.15.30:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2022.04.12-14.15.30:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2022.04.12-14.15.30:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2022.04.12-14.15.30:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2022.04.12-14.15.30:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2022.04.12-14.15.31:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2022.04.12-14.15.31:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2022.04.12-14.15.31:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2022.04.12-14.15.31:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2022.04.12-14.15.31:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2022.04.12-14.15.31:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2022.04.12-14.15.31:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Collapse01.uasset"
+[2022.04.12-14.15.31:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Collapse02.uasset"
+[2022.04.12-14.15.31:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2022.04.12-14.15.31:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Explosion01.uasset"
+[2022.04.12-14.15.31:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Explosion02.uasset"
+[2022.04.12-14.15.31:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2022.04.12-14.15.31:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Fire01.uasset"
+[2022.04.12-14.15.31:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2022.04.12-14.15.31:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2022.04.12-14.15.31:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2022.04.12-14.15.31:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Light01.uasset"
+[2022.04.12-14.15.31:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2022.04.12-14.15.31:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Light02.uasset"
+[2022.04.12-14.15.31:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2022.04.12-14.15.31:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Smoke01.uasset"
+[2022.04.12-14.15.31:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2022.04.12-14.15.31:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2022.04.12-14.15.32:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2022.04.12-14.15.32:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2022.04.12-14.15.32:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2022.04.12-14.15.32:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2022.04.12-14.15.32:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2022.04.12-14.15.32:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Steam01.uasset"
+[2022.04.12-14.15.32:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2022.04.12-14.15.32:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2022.04.12-14.15.32:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2022.04.12-14.15.32:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2022.04.12-14.15.32:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2022.04.12-14.15.32:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2022.04.12-14.15.32:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2022.04.12-14.15.32:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2022.04.12-14.15.32:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2022.04.12-14.15.32:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2022.04.12-14.15.32:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2022.04.12-14.15.32:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2022.04.12-14.15.32:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2022.04.12-14.15.32:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2022.04.12-14.15.33:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2022.04.12-14.15.33:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2022.04.12-14.15.33:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2022.04.12-14.15.33:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2022.04.12-14.15.33:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2022.04.12-14.15.34:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2022.04.12-14.15.34:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/Minimal_Default.umap"
+[2022.04.12-14.15.34:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2022.04.12-14.15.34:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/StarterMap.umap"
+[2022.04.12-14.15.34:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2022.04.12-14.15.34:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2022.04.12-14.15.34:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2022.04.12-14.15.34:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2022.04.12-14.15.34:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2022.04.12-14.15.34:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2022.04.12-14.15.34:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2022.04.12-14.15.34:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2022.04.12-14.15.34:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2022.04.12-14.15.34:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2022.04.12-14.15.34:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2022.04.12-14.15.34:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2022.04.12-14.15.34:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2022.04.12-14.15.34:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2022.04.12-14.15.34:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2022.04.12-14.15.34:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2022.04.12-14.15.34:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2022.04.12-14.15.35:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2022.04.12-14.15.35:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Glass.uasset"
+[2022.04.12-14.15.35:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2022.04.12-14.15.35:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2022.04.12-14.15.35:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2022.04.12-14.15.35:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2022.04.12-14.15.35:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2022.04.12-14.15.35:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2022.04.12-14.15.35:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2022.04.12-14.15.35:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2022.04.12-14.15.35:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2022.04.12-14.15.35:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2022.04.12-14.15.35:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2022.04.12-14.15.35:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2022.04.12-14.15.35:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2022.04.12-14.15.35:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2022.04.12-14.15.35:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2022.04.12-14.15.35:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2022.04.12-14.15.35:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2022.04.12-14.15.35:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2022.04.12-14.15.35:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2022.04.12-14.15.35:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2022.04.12-14.15.35:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2022.04.12-14.15.35:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2022.04.12-14.15.35:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2022.04.12-14.15.35:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2022.04.12-14.15.35:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2022.04.12-14.15.35:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2022.04.12-14.15.35:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Explosion.uasset"
+[2022.04.12-14.15.35:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Fire.uasset"
+[2022.04.12-14.15.35:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Smoke.uasset"
+[2022.04.12-14.15.35:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Sparks.uasset"
+[2022.04.12-14.15.35:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2022.04.12-14.15.35:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2022.04.12-14.15.35:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2022.04.12-14.15.35:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2022.04.12-14.15.36:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2022.04.12-14.15.36:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2022.04.12-14.15.36:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2022.04.12-14.15.36:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2022.04.12-14.15.36:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2022.04.12-14.15.36:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2022.04.12-14.15.36:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2022.04.12-14.15.36:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/MaterialSphere.uasset"
+[2022.04.12-14.15.36:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Bush.uasset"
+[2022.04.12-14.15.36:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Chair.uasset"
+[2022.04.12-14.15.36:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2022.04.12-14.15.36:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Couch.uasset"
+[2022.04.12-14.15.36:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Door.uasset"
+[2022.04.12-14.15.36:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2022.04.12-14.15.36:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2022.04.12-14.15.36:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2022.04.12-14.15.36:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2022.04.12-14.15.36:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2022.04.12-14.15.36:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2022.04.12-14.15.36:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2022.04.12-14.15.36:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Rock.uasset"
+[2022.04.12-14.15.36:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Shelf.uasset"
+[2022.04.12-14.15.36:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Stairs.uasset"
+[2022.04.12-14.15.36:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_Statue.uasset"
+[2022.04.12-14.15.36:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_TableRound.uasset"
+[2022.04.12-14.15.36:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2022.04.12-14.15.37:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2022.04.12-14.15.37:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2022.04.12-14.15.37:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2022.04.12-14.15.37:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2022.04.12-14.15.37:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2022.04.12-14.15.37:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2022.04.12-14.15.37:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2022.04.12-14.15.37:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2022.04.12-14.15.37:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2022.04.12-14.15.37:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2022.04.12-14.15.37:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2022.04.12-14.15.37:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2022.04.12-14.15.37:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2022.04.12-14.15.37:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2022.04.12-14.15.37:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2022.04.12-14.15.37:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2022.04.12-14.15.37:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2022.04.12-14.15.37:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2022.04.12-14.15.37:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2022.04.12-14.15.37:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2022.04.12-14.15.37:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2022.04.12-14.15.37:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2022.04.12-14.15.37:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2022.04.12-14.15.37:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2022.04.12-14.15.37:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2022.04.12-14.15.37:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2022.04.12-14.15.37:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2022.04.12-14.15.38:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2022.04.12-14.15.38:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2022.04.12-14.15.38:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2022.04.12-14.15.38:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2022.04.12-14.15.38:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2022.04.12-14.15.38:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2022.04.12-14.15.38:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2022.04.12-14.15.38:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2022.04.12-14.15.38:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2022.04.12-14.15.39:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2022.04.12-14.15.39:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2022.04.12-14.15.39:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2022.04.12-14.15.39:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2022.04.12-14.15.39:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2022.04.12-14.15.39:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2022.04.12-14.15.39:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2022.04.12-14.15.40:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2022.04.12-14.15.40:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2022.04.12-14.15.40:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2022.04.12-14.15.40:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2022.04.12-14.15.40:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2022.04.12-14.15.40:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2022.04.12-14.15.40:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2022.04.12-14.15.40:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2022.04.12-14.15.40:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2022.04.12-14.15.40:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2022.04.12-14.15.41:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2022.04.12-14.15.41:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2022.04.12-14.15.41:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2022.04.12-14.15.41:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2022.04.12-14.15.41:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2022.04.12-14.15.41:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2022.04.12-14.15.42:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2022.04.12-14.15.42:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2022.04.12-14.15.42:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2022.04.12-14.15.42:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2022.04.12-14.15.43:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2022.04.12-14.15.43:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2022.04.12-14.15.43:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2022.04.12-14.15.43:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2022.04.12-14.15.43:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2022.04.12-14.15.43:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2022.04.12-14.15.43:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2022.04.12-14.15.44:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Door_M.uasset"
+[2022.04.12-14.15.44:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Door_N.uasset"
+[2022.04.12-14.15.44:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2022.04.12-14.15.44:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2022.04.12-14.15.44:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2022.04.12-14.15.44:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2022.04.12-14.15.44:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2022.04.12-14.15.44:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2022.04.12-14.15.44:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2022.04.12-14.15.45:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2022.04.12-14.15.45:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2022.04.12-14.15.45:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2022.04.12-14.15.45:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2022.04.12-14.15.46:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2022.04.12-14.15.46:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2022.04.12-14.15.46:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2022.04.12-14.15.46:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2022.04.12-14.15.47:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2022.04.12-14.15.47:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2022.04.12-14.15.47:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2022.04.12-14.15.47:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2022.04.12-14.15.47:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2022.04.12-14.15.47:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2022.04.12-14.15.47:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2022.04.12-14.15.48:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2022.04.12-14.15.48:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2022.04.12-14.15.48:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2022.04.12-14.15.48:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2022.04.12-14.15.48:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2022.04.12-14.15.49:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2022.04.12-14.15.49:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2022.04.12-14.15.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2022.04.12-14.15.49:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2022.04.12-14.15.49:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2022.04.12-14.15.50:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2022.04.12-14.15.50:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2022.04.12-14.15.50:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2022.04.12-14.15.51:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2022.04.12-14.15.51:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2022.04.12-14.15.51:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2022.04.12-14.15.51:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2022.04.12-14.15.51:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2022.04.12-14.15.51:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2022.04.12-14.15.51:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2022.04.12-14.15.51:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2022.04.12-14.15.51:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2022.04.12-14.15.51:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2022.04.12-14.15.51:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2022.04.12-14.15.51:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2022.04.12-14.15.51:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2022.04.12-14.15.51:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2022.04.12-14.15.51:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2022.04.12-14.15.51:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2022.04.12-14.15.51:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Water_M.uasset"
+[2022.04.12-14.15.52:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Water_N.uasset"
+[2022.04.12-14.15.52:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2022.04.12-14.15.52:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2022.04.12-14.15.52:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2022.04.12-14.15.53:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2022.04.12-14.15.53:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2022.04.12-14.15.53:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2022.04.12-14.15.53:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2022.04.12-14.15.53:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2022.04.12-14.15.53:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2022.04.12-14.15.54:166][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2022.04.12-14.15.54:172][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2022.04.12-14.15.54:380][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2022.04.12-14.15.54:460][  0]LogSavePackage: Moving '../../../../../../Work/Unreal/BattleTank/BattleTank/Saved/Floor_400x4002AB3469A42FACB068A10C188C0D0C8FA.tmp' to '../../../../../../Work/Unreal/BattleTank/BattleTank/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2022.04.12-14.15.54:462][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2022.04.12-14.15.54:463][  0]Cmd: MAP LOAD FILE="../../../../../../Work/Unreal/BattleTank/BattleTank/Content/Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.12-14.15.54:463][  0]LightingResults: New page: Lighting Build
+[2022.04.12-14.15.54:466][  0]MapCheck: New page: Map Check
+[2022.04.12-14.15.54:466][  0]LightingResults: New page: Lighting Build
+[2022.04.12-14.15.54:496][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.04.12-14.15.54:952][  0]LogAIModule: Creating AISystem for world BattleGround
+[2022.04.12-14.15.55:223][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.12-14.15.55:424][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.04.12-14.15.55:424][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.12-14.15.55:425][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2022.04.12-14.15.55:425][  0]LogFileHelpers: Loading map 'BattleGround' took 0.961
+[2022.04.12-14.15.55:521][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.15.55:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.15.55:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.15.55:548][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.15.55:551][  0]LogCollectionManager: Loaded 0 collections in 0.000765 seconds
+[2022.04.12-14.15.55:958][  0]LogFileCache: Scanning file cache for directory 'F:/Work/Unreal/BattleTank/BattleTank/Saved/Collections/' took 0.01s
+[2022.04.12-14.15.55:958][  0]LogFileCache: Scanning file cache for directory 'F:/Work/Unreal/BattleTank/BattleTank/Content/Developers/andre/Collections/' took 0.01s
+[2022.04.12-14.15.55:958][  0]LogFileCache: Scanning file cache for directory 'F:/Work/Unreal/BattleTank/BattleTank/Content/Collections/' took 0.01s
+[2022.04.12-14.15.55:958][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.04.12-14.15.55:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2745 classes and 662 folders.
+[2022.04.12-14.15.55:980][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.12-14.15.55:982][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:982][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:985][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:986][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:986][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.55:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.04.12-14.15.56:017][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.04.12-14.15.56:025][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2022.04.12-14.15.56:040][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.12-14.15.56:042][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.04.12-14.15.56:047][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.12-14.15.56:098][  0]LogRenderer: Reallocating scene render targets to support 1124x608 Format 10 NumSamples 1 (Frame:1).
+[2022.04.12-14.15.56:153][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.12-14.15.56:294][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.04.12-14.15.56:295][  0]LogLoad: (Engine Initialization) Total time: 64.85 seconds
+[2022.04.12-14.15.56:295][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.04.12-14.15.56:367][  0]LogAssetRegistry: Asset discovery search completed in 29.9363 seconds
+[2022.04.12-14.15.56:370][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.04.12-14.15.56:370][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2022.04.12-14.15.56:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.12-14.16.02:022][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.16.02:055][248]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.12-14.16.02:059][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.16.02:059][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.12-14.16.02:060][248]PIE: New page: PIE session: BattleGround (Apr 12, 2022, 8:16:02 PM)
+[2022.04.12-14.16.02:072][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2022.04.12-14.16.02:208][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135437s)
+[2022.04.12-14.16.02:209][248]LogAIModule: Creating AISystem for world BattleGround
+[2022.04.12-14.16.02:209][248]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2022.04.12-14.16.02:209][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.136519s)
+[2022.04.12-14.16.02:235][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.04.12-14.16.02:251][248]LogInit: XAudio2 using 'Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.04.12-14.16.02:270][248]LogInit: FAudioDevice initialized.
+[2022.04.12-14.16.02:311][248]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2022.04.12-14.16.02:320][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2022.04.12-17.16.02
+[2022.04.12-14.16.02:321][248]LogWorld: Bringing up level for play took: 0.004115
+[2022.04.12-14.16.02:337][248]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.04.12-14.16.02:344][248]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 0.885
+[2022.04.12-14.16.02:344][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.16.03:969][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.16.03:970][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.16.04:000][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.12-14.16.04:001][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.16.04:063][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.12-14.16.04:071][344]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2022.04.12-14.16.04:112][345]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.04.12-14.16.10:605][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.16.16:204][ 55]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.12-14.16.16:212][ 55]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2022.04.12-14.16.16:470][ 55]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2022.04.12-14.16.17:264][ 55]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.12-14.16.17:316][ 56]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.12-14.16.23:717][428]LogRenderer: Reallocating scene render targets to support 1144x900 Format 10 NumSamples 1 (Frame:1).
+[2022.04.12-14.16.27:676][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.04.12-14.16.31:132][851]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2022.04.12-14.16.38:579][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.17.20:185][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.17.51:116][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.17.51:148][580]BlueprintLog: New page: Compile Tank_BP
+[2022.04.12-14.17.51:200][580]LogBlueprint: Error: [Compiler Tank_BP] This blueprint (self) is not a TankTrack, therefore ' Target ' must have a connection.
+[2022.04.12-14.17.51:200][580]LogBlueprint: Error: [Compiler Tank_BP] This blueprint (self) is not a TankTrack, therefore ' Target ' must have a connection.
+[2022.04.12-14.17.51:657][580]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2022.04.12-14.17.51:664][580]LogBlueprint: Warning: [Compiler Tank_BP] [0180.21] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 515 ms] (/Game/Tank/Tank_BP.Tank_BP)
+[2022.04.12-14.18.00:056][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.04.12-14.18.05:558][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.04.12-14.18.18:692][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.18.26:689][641]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.04.12-14.18.39:996][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.04.12-14.18.42:754][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.18.55:923][367]BlueprintLog: New page: Compile Tank_BP
+[2022.04.12-14.18.55:934][367]LogBlueprint: Error: [Compiler Tank_BP] This blueprint (self) is not a TankTrack, therefore ' Target ' must have a connection.
+[2022.04.12-14.18.55:935][367]LogBlueprint: Error: [Compiler Tank_BP] This blueprint (self) is not a TankTrack, therefore ' Target ' must have a connection.
+[2022.04.12-14.18.56:145][367]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2022.04.12-14.18.56:152][367]LogBlueprint: Warning: [Compiler Tank_BP] [0244.70] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 229 ms] (/Game/Tank/Tank_BP.Tank_BP)
+[2022.04.12-14.20.55:427][325]BlueprintLog: New page: Compile Tank_BP
+[2022.04.12-14.20.55:636][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.04.12-14.21.00:945][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.04.12-14.21.01:794][662]LogSlate: Window 'Tank_BP' being destroyed
+[2022.04.12-14.21.02:616][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Work/Unreal/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2022.04.12-14.21.02:699][709]LogSavePackage: Moving '../../../../../../Work/Unreal/BattleTank/BattleTank/Saved/Tank_BP109F17934CFD2C69DAD8AAA3BC1535DE.tmp' to '../../../../../../Work/Unreal/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2022.04.12-14.21.04:652][825]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.12-14.21.04:678][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.21.04:678][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.12-14.21.04:679][825]PIE: New page: PIE session: BattleGround (Apr 12, 2022, 8:21:04 PM)
+[2022.04.12-14.21.04:679][825]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2022.04.12-14.21.04:803][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124605s)
+[2022.04.12-14.21.04:804][825]LogAIModule: Creating AISystem for world BattleGround
+[2022.04.12-14.21.04:804][825]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2022.04.12-14.21.04:804][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.125907s)
+[2022.04.12-14.21.04:843][825]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2022.04.12-14.21.04:862][825]LogInit: XAudio2 using 'Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.04.12-14.21.04:882][825]LogInit: FAudioDevice initialized.
+[2022.04.12-14.21.04:907][825]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2022.04.12-14.21.04:916][825]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2022.04.12-17.21.04
+[2022.04.12-14.21.04:916][825]LogWorld: Bringing up level for play took: 0.003571
+[2022.04.12-14.21.04:930][825]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.528
+[2022.04.12-14.21.04:931][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2022.04.12-14.21.04:931][825]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+Tank_BP_C.ExecuteUbergraph_Tank_BP
+Tank_BP_C.InpAxisEvt_Turn Right_K2Node_InputAxisEvent_5
+
+[2022.04.12-14.21.07:681][825]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.750 s
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: === Handled ensure: ===
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: Ensure condition failed: LeftTrack && RightTrack [File:F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp] [Line: 25]
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: Stack: 
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9be253918 UE4Editor-BattleTank.dll!<lambda_511c0cdd282ab7195124bcbf48ba84d7>::operator()() [F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp:25]
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9be24808b UE4Editor-BattleTank.dll!UTankMovementComponent::IntendTurnRight() [F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp:25]
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9be248832 UE4Editor-BattleTank.dll!UTankMovementComponent::execIntendTurnRight() [F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankMovementComponent.h:16]
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8bbbac8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8db00e2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dccbc1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce98d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8da5efb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:682][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce6a9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce98d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce378 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8bbbac8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dcdf07 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d1d09ff3 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2d81256 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d28f0dc4 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2903c88 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d28ef1cb UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2902697 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d1ceaeed UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2ca72bc UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d91022d8 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d9102563 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d9112309 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2cef9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:683][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2cfbd12 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d251dc4f UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2527e28 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d08702f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d108d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9e6bb1 UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9f554c UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9f55ca UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff6dfa0316c UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ff6dfa05b8e UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ffa48007034 KERNEL32.DLL!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: [Callstack] 0x00007ffa49fe2651 ntdll.dll!UnknownFunction []
+[2022.04.12-14.21.07:684][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.07:689][825]LogStats:                SubmitErrorReport -  0.000 s
+[2022.04.12-14.21.16:517][825]LogStats:                    SendNewReport -  8.829 s
+[2022.04.12-14.21.16:517][825]LogStats:             FDebug::EnsureFailed - 11.586 s
+[2022.04.12-14.21.16:517][825]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+Tank_BP_C.ExecuteUbergraph_Tank_BP
+Tank_BP_C.InpAxisEvt_Move Forward_K2Node_InputAxisEvent_4
+
+[2022.04.12-14.21.16:521][825]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: === Handled ensure: ===
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: Ensure condition failed: LeftTrack && RightTrack [File:F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp] [Line: 10]
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: Stack: 
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9be253988 UE4Editor-BattleTank.dll!<lambda_d6a4de4d5680e06a6e6053d26c9c8e4a>::operator()() [F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Private\TankMovementComponent.cpp:10]
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9be24879b UE4Editor-BattleTank.dll!UTankMovementComponent::execIntendMoveForward() [F:\Work\Unreal\BattleTank\BattleTank\Source\BattleTank\Public\TankMovementComponent.h:16]
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8bbbac8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8db00e2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dccbc1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce98d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8da5efb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce6a9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce98d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dce378 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:522][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8bbbac8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d8dcdf07 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d1d09ff3 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2d81256 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d28f0dc4 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2903c88 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d28ef1cb UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2902697 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d1ceaeed UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2ca72bc UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d91022d8 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d9102563 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d9112309 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2cef9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2cfbd12 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d251dc4f UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d2527e28 UE4Editor-Engine.dll!UnknownFunction []
+[2022.04.12-14.21.16:523][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d08702f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff9d108d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9e6bb1 UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9f554c UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff6df9f55ca UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff6dfa0316c UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ff6dfa05b8e UE4Editor.exe!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ffa48007034 KERNEL32.DLL!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: [Callstack] 0x00007ffa49fe2651 ntdll.dll!UnknownFunction []
+[2022.04.12-14.21.16:524][825]LogOutputDevice: Error: 
+[2022.04.12-14.21.16:668][825]LogStats:                SubmitErrorReport -  0.000 s
