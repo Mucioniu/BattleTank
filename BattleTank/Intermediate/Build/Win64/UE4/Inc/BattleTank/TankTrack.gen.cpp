@@ -17,93 +17,15 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 	BATTLETANK_API UClass* Z_Construct_UClass_UTankTrack();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent();
 	UPackage* Z_Construct_UPackage__Script_BattleTank();
-	BATTLETANK_API UFunction* Z_Construct_UFunction_UTankTrack_OnHit();
-	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	BATTLETANK_API UFunction* Z_Construct_UFunction_UTankTrack_SetThrottle();
 // End Cross Module References
 	void UTankTrack::StaticRegisterNativesUTankTrack()
 	{
 		UClass* Class = UTankTrack::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "OnHit", &UTankTrack::execOnHit },
 			{ "SetThrottle", &UTankTrack::execSetThrottle },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_UTankTrack_OnHit_Statics
-	{
-		struct TankTrack_eventOnHit_Parms
-		{
-			UPrimitiveComponent* HitComponent;
-			AActor* OtherActor;
-			UPrimitiveComponent* OtherComponent;
-			FVector NormalImpulse;
-			FHitResult Hit;
-		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComponent;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComponent;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_Hit_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TankTrack_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_Hit_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TankTrack_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherComponent = { "OtherComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TankTrack_eventOnHit_Parms, OtherComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherComponent_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherComponent_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TankTrack_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_HitComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_HitComponent = { "HitComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TankTrack_eventOnHit_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_HitComponent_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_HitComponent_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTankTrack_OnHit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_Hit,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_NormalImpulse,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTankTrack_OnHit_Statics::NewProp_HitComponent,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTankTrack_OnHit_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/TankTrack.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTankTrack_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTankTrack, nullptr, "OnHit", sizeof(TankTrack_eventOnHit_Parms), Z_Construct_UFunction_UTankTrack_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTankTrack_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C40401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTankTrack_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTankTrack_OnHit_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UTankTrack_OnHit()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UTankTrack_OnHit_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UTankTrack_SetThrottle_Statics
 	{
@@ -163,7 +85,6 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_BattleTank,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTankTrack_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTankTrack_OnHit, "OnHit" }, // 4213630115
 		{ &Z_Construct_UFunction_UTankTrack_SetThrottle, "SetThrottle" }, // 696347014
 	};
 #if WITH_METADATA
@@ -179,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData[] = {
 		{ "Category", "TankTrack" },
 		{ "ModuleRelativePath", "Public/TankTrack.h" },
+		{ "ToolTip", "Max force per track, in Newtons" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce = { "TrackMaxDrivingForce", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTankTrack, TrackMaxDrivingForce), METADATA_PARAMS(Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTankTrack_Statics::NewProp_TrackMaxDrivingForce_MetaData)) };
@@ -212,7 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeTankTrack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTankTrack, 276242290);
+	IMPLEMENT_CLASS(UTankTrack, 4028784146);
 	template<> BATTLETANK_API UClass* StaticClass<UTankTrack>()
 	{
 		return UTankTrack::StaticClass();

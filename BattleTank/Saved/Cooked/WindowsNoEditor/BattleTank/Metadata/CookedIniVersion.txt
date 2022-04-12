@@ -27,7 +27,7 @@ Windows.Engine:AssetRegistry:bSerializeSearchableNameDependencies:0=false
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Levels/BattleGround.BattleGround
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
@@ -1272,7 +1272,7 @@ Windows.Engine:/Script/Engine.PhysicsSettings:bDisableKinematicKinematicPairs:0=
 Windows.Engine:/Script/Engine.PhysicsSettings:bDisableCCD:0=False
 Windows.Engine:/Script/Engine.PhysicsSettings:bEnableEnhancedDeterminism:0=False
 Windows.Engine:/Script/Engine.PhysicsSettings:MaxPhysicsDeltaTime:0=0.033333
-Windows.Engine:/Script/Engine.PhysicsSettings:bSubstepping:0=False
+Windows.Engine:/Script/Engine.PhysicsSettings:bSubstepping:0=True
 Windows.Engine:/Script/Engine.PhysicsSettings:bSubsteppingAsync:0=False
 Windows.Engine:/Script/Engine.PhysicsSettings:MaxSubstepDeltaTime:0=0.016667
 Windows.Engine:/Script/Engine.PhysicsSettings:MaxSubsteps:0=6
@@ -1470,32 +1470,32 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaul
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 Android.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameMode
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/BattleTankGameMode_BP.BattleTankGameMode_BP_C
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
 Windows.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
@@ -1539,6 +1539,7 @@ Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=Cap
 Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockOnCapture
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:0=(ActionName="Quit",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Escape)
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:1=(ActionName="Fire",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=LeftMouseButton)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:2=(ActionName="Swap cam",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=C)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="AimAzimuth",Scale=1.000000,Key=MouseX)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="AimAzimuth",Scale=1.000000,Key=Gamepad_RightX)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="AimElevation",Scale=1.000000,Key=MouseY)
@@ -1719,7 +1720,7 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R
 Windows.Game:StartupActions:bAddPacks:0=False
 Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack",PackName="StarterContent")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="F/Work/BattleTank")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="F/facultate/Anul IV sem II/Grafica Avansata")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
@@ -1863,6 +1864,7 @@ Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(Prim
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
 Windows.Game:Staging:RemapDirectories:0=(From="Engine/Plugins/Lumin", To="Engine/Plugins/MagicLeap")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
